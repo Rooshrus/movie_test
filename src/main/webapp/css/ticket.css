@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .movie {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 40px 20px;
+    cursor: pointer;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #bdc3c7;
+    transition: border-color 0.3s;
+  }
+  
+  .movie p {
+    margin-top: 10px;
+  }
+  
+  .movie.active img {
+    border-color: #3498db;
+  }
+  
+  .seat-map {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #666363c4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    width: 20px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #bdc3c7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .seat.selected {
+    background-color: #3498db;
+    border: 1px solid #3498db;
+  }
+  
+  #selected-seats {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

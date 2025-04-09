@@ -1,0 +1,276 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #777;
+    border-radius: 30px;
+    color: aqua;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.intro {
+    background-color: #666363c4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    margin: auto;
+}
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.contact-section1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.contact-details, .social-media, .email-details {
+    flex: 1;
+    padding: 0 20px;
+}
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.a1 {
+    color: #6d9ac7;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.iframe_box{
+    height: 80%;
+    border: 2px solid #8B0000;
+    border-radius: 40px;
+    width: 50%;
+    margin: 50px auto;
+    display: block;
+    justify-content: center;
+}
+
+.container2{
+    height: 200px;
+}
+.box1{
+    background: #686868d8;
+}
+.box2{
+    background: #686868d8;
+}
+.box3{
+    background: #686868d8;
+}
+.card-body1{
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #666363c4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: auto;
+}
+.card123 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.card-img-top1 {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title2,
+    .title3 {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title2 {
+        color: rgb(0,87,184);
+    }
+
+    .title3 {
+        color: rgb(255,215,0);
+    }
+    .taimer {
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 100;
+       }
+       
+       .countdown-title {
+        color: aqua;
+        font-weight: 100;
+        font-size: 40px;
+        margin: 0 0px 20px;
+       }
+       
+       .countdown {
+        font-family: sans-serif;
+        color: #fff;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+       }
+       
+       .countdown-number {
+        padding: 10px;
+        border-radius: 3px;
+        background: #424242c7;
+        display: inline-block;
+       }
+       
+       .countdown-time {
+        padding: 15px;
+        border-radius: 3px;
+        background: #505050f8;
+        display: inline-block;
+       }
+       
+       .countdown-text {
+        display: block;
+        padding-top: 5px;
+        font-size: 16px;
+       }
+       .content-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .image-container img {
+        max-width: 30%;
+        height: auto;
+        margin-left: auto;
+    }
+    
+
+    
+    .text-container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .text-container p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    form {
+        max-width: 50%;
+        margin: 20px auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: aqua;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    button {
+        background-color: #0077cc;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #005499;
+    }
+    #map2{
+        margin:auto;
+        width: 80%;
+        height: 400px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: (0, 0, 0, 0.3);
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+ 
+    .map iframe{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
